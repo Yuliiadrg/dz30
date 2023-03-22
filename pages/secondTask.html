@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>The second task</title>
+</head>
+
+<body>
+    <div class="wrapper--btn">
+        <a href="../index.html"><button>BACK TO NAVIGATION</button></a>
+        <a href="./firstTask.html"><button>PREVIOUS</button></a>
+        <a href="./thirdTask.html"><button>Next</button></a>
+        </div>
+    <div class="wrapper">
+        <h1>Table with array</h1>
+        <h2>when you click on a column header, <br>you need to sort the data of this column</h2>
+
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">TIME</th>
+                    <th onclick="sortTable(1)">FORMULA</th>
+                    <th onclick="sortTable(2)">SIGNAL WORDS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Past Simple</td>
+                    <td>S + was/were + V3
+                        S + was/were + not + V3
+                        Was/were + S + V3?</td>
+                    <td>yesterda; last (week, month, year); (a week, a month, three years) ago</td>
+                </tr>
+                <tr>
+                    <td>Past Continious</td>
+                    <td>S + was/were + being + V3
+                        S + was/were + not + being + V3
+                        Was/were + S + being + V3?</td>
+                    <td>last nigh, at 7 p.m. yesterday, all day yesterday</td>
+                </tr>
+                <tr>
+                    <td>Past Perfect Simple</td>
+                    <td>S + had + been + V3
+                        S + had + not + been + V3
+                        Had + S + been + V3?</td>
+                    <td>before; after; when</td>
+                </tr>
+                <tr>
+                    <td>Present Simple</td>
+                    <td>S + am/is/are + V3
+                        S + am/is/are + not + V3
+                        Am/is/are + S + V3?</td>
+                    <td>every (day, weekend, Monday); always; often; sometimes; twice a week</td>
+                </tr>
+                <tr>
+                    <td>Present Continious</td>
+                    <td>S + am/is/are + being + V3
+                        S + am/is/are + not + being + V3
+                        Am/is/are + S + being + V3?</td>
+                    <td>now, at the moment, currently</td>
+                </tr>
+                <tr>
+                    <td>Present Perfect Simple</td>
+                    <td>S + have/has + been + V3
+                        S + have/has + not + been + V3
+                        Have/has + S + been + V3?</td>
+                    <td>already; yet; still; just; this morning</td>
+                </tr>
+                <tr>
+                    <td>Future Simple</td>
+                    <td>S + will be + V3
+                        S + will not be + V3
+                        Will + S + be + V3?</td>
+                    <td>tomorrow; next (week, month, year); this (week, month, year); someday; in the future</td>
+                </tr>
+                <tr>
+                    <td>Future Continious</td>
+                    <td>will be + verb + -ing</td>
+                    <td>tomorrow mornin, all day tomorrow, next week</td>
+                </tr>
+                <tr>
+                    <td>Future Perfect</td>
+                    <td>S + will + have been + V3
+                        S + will + not + have been + V3
+                        Will + S + have been + V3?</td>
+                    <td>by (Monday, next week); by 7 a.m. tomorrow</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <script src="../js/secondTask.js"></script>
+        </body>
+        
+        </html>
