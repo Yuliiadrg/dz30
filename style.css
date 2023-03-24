@@ -54,10 +54,6 @@ button:active {
     padding: 10px;
     border: 4px solid pink;
 }
-
-/*The second task */
-
-
 /*The third task*/
 #resizable {
     width: 500px;
@@ -67,4 +63,5 @@ button:active {
     color: #ffffff;
     font-weight: 500;
     font-size: larger;
+    overflow-x: scroll;
 }
